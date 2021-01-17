@@ -3,7 +3,7 @@ package com.company;
 public class bubbleReverseSort {
     public static void main(String[] args) {
         int [] intArray = {7, 8, -22, -66, 4, 62, 100, 5};
-        //       the last position                                          start looping from the last position and run backwards
+        //       the last position                                         start looping from the last position and run backwards
         for (int lastUnsortedIndex=intArray.length-1; lastUnsortedIndex>0; lastUnsortedIndex--) {
             for (int i=0; i<lastUnsortedIndex; i++ ){
                 if (intArray[i]>intArray[i+1]){
